@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
   }
 
   .conteudo p {

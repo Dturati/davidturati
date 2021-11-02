@@ -6,6 +6,7 @@
             <div class="div_icons">
               <div><a target="_blank" href="https://www.youtube.com/channel/UCwOmVvw_qEfGSmAfBXyKixw"><i class="icon fab fa-youtube fa-2x"></i></a></div>
               <div><a target="_blank" href="https://www.instagram.com/davidturati/"><i class="fab fa-instagram fa-2x"></i></a></div>
+              <div><a target="_blank" href="https://twitter.com/davidturati"><i class="fab fa-twitter fa-2x"></i></a></div>
             </div>
           </div>
           <div class="div_footer">
@@ -33,6 +34,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  @media  screen and (max-width: 880px) {
+      .text {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          width: 100% !important;
+          height: 100px;
+          cursor: pointer;
+      }
+    }
   .conteudo {
     display: flex;
     align-items: center;
@@ -75,6 +87,7 @@ export default {
 
   .text_in span {
     font-size: 24px;
+    color: #283E4A;
   }
 
   .div_icons {
